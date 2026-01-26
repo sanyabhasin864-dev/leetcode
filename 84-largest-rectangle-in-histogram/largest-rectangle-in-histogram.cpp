@@ -2,9 +2,7 @@ class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
         int n = heights.size();
-
-        vector<int> right(n);
-        vector<int> left(n);
+        vector<int> right(n), left(n);
         stack<int> stk;
 
         // Next Smaller Element to Right
