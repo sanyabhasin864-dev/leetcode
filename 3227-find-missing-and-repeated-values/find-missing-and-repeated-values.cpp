@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
-         int n = grid.size();
+        int n = grid.size();
         int size = n * n;
         vector<int> count(size + 1, 0);
 
